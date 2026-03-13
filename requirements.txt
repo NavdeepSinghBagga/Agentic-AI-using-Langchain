@@ -1,0 +1,41 @@
+# AI Agent Implementation - Dependencies
+# Python 3.10+ required
+
+# ============================================================================
+# Core LangChain Dependencies (Compatible versions)
+# ============================================================================
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-ollama>=0.2.0
+
+# ============================================================================
+# LangGraph for Multi-Agent Workflows
+# ============================================================================
+langgraph>=0.2.0
+
+# ============================================================================
+# Observability
+# ============================================================================
+arize-phoenix>=4.0.0
+openinference-instrumentation-langchain>=0.1.0
+
+# ============================================================================
+# API Integration Libraries
+# ============================================================================
+requests>=2.31.0           # HTTP requests for Weather & News APIs
+wikipedia>=1.4.0           # Wikipedia search tool
+python-dotenv>=1.0.0       # Environment variable management
+
+# ============================================================================
+# Utilities
+# ============================================================================
+tenacity>=8.2.3            # Retry logic with exponential backoff
+pydantic>=2.5.0            # Data validation and settings management
+
+# ============================================================================
+# Optional: Development & Testing
+# ============================================================================
+# pytest==7.4.3            # Testing framework
+# black==23.12.1           # Code formatting
+# flake8==7.0.0            # Linting
